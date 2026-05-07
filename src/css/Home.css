@@ -61,3 +61,24 @@
   width: 100%;
   box-sizing: border-box;
 }
+
+.tab-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 8px 18px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tab-button.active {
+  background: #e50914;  /* or your brand color */
+  color: white;
+  border-color: transparent;
+}
